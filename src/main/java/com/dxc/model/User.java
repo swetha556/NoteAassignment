@@ -3,6 +3,12 @@ import javax.persistence.*;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+/*create table user(
+		   userId int primary key not null,
+		   userName varchar(30) ,
+		   userPassword varchar(30),
+		   userMobile varchar(13) ,
+		   userAddedDate date);*/
 
 @Entity
 @Table(name="user")

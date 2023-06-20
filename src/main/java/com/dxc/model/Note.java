@@ -3,7 +3,14 @@ package com.dxc.model;
 import javax.persistence.*;
 import javax.persistence.Table;
 
-
+/*create table note (
+		  noteId int primary key not null,
+		  noteTitle varchar(30) ,
+		  noteContent varchar(100),
+		  noteStatus varchar(50),
+		  notecreatedAt date,
+		  notecreatedBy varchar(30)
+		  );*/
 @Entity
 @Table(name="note")
 public class Note {
